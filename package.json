@@ -4,11 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "clientA": "nodemon --exec babel-node ./clients/clientA.js",
-    "clientB": "nodemon --exec babel-node ./clients/clientB.js",
-    "server": "nodemon --exec babel-node server.js",
-    "dev": "concurrently  --kill-others \"nodemon -q --exec babel-node server.js\" \"nodemon -q --exec babel-node ./clients/clientB.js\" \"sleep 2 && nodemon -q --exec babel-node ./clients/clientA.js\"",
-    "start": "sleep 3 && nodemon --exec babel-node server.js",
+    "start": "concurrently  --kill-others \"nodemon -q --exec babel-node server.js\" \"nodemon -q --exec babel-node ./clients/clientB.js\" \"sleep 2 && nodemon -q --exec babel-node ./clients/clientA.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
