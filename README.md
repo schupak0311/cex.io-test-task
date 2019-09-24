@@ -1,5 +1,3 @@
-# cex.io-test-task
-
 # Test task for NodeJs developer
 
 ## Description
@@ -22,7 +20,6 @@ Develop a system of three components (Client A, Client B, Server):
 
 `npm start`
    
-    
     
 ## Screenshot Running App
 
